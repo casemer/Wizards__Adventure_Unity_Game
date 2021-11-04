@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 5b911baff6d032f4aa6c6e7bcfe6b94d
+  - enabled: 1
+    path: Assets/Scenes/InsideTheHome.unity
+    guid: 824048cce5b0dda4c882c2dc7fad9e9a
+  - enabled: 1
+    path: Assets/Scenes/InsideTheHomePlayable.unity
+    guid: 361af324f3df3a6418e0faa229b10dc4
+  - enabled: 1
+    path: Assets/Scenes/TheTown.unity
+    guid: 1140fe008f78c1a48aacb74e7b4ee48a
+  - enabled: 1
+    path: Assets/Scenes/InsideBarn.unity
+    guid: 9e99a881aea4b4649bb36848a579ccff
+  - enabled: 1
+    path: Assets/Scenes/Dungeon.unity
+    guid: f6fe1aeab0e1e1043ad2d9ccac16d2f9
+  - enabled: 1
+    path: Assets/Scenes/ThroneRoom.unity
+    guid: 398346d37a8f115418f315e1551fd4a8
+  - enabled: 1
+    path: Assets/Scenes/TheTown2.unity
+    guid: 585699bf45411f94eb4e12f557188d34
+  - enabled: 1
+    path: Assets/Scenes/InsideBarn2.unity
+    guid: b7d91469698f43a419382405aa4ca9ae
+  - enabled: 1
+    path: Assets/Scenes/Forest.unity
+    guid: 45d5f92295a2b0441b389d0b204f06be
+  - enabled: 1
+    path: Assets/Scenes/ForestPond.unity
+    guid: 64761c6a59e14bf46a56e201035fa74c
+  - enabled: 1
+    path: Assets/Scenes/TheTown3.unity
+    guid: 24f7aab6f626d9b4e997e515d2ebd0ac
+  - enabled: 1
+    path: Assets/Scenes/Mountains.unity
+    guid: 6127371b1b6fbaf4db0184b63c649b7a
+  - enabled: 1
+    path: Assets/Scenes/Heaven.unity
+    guid: 1b0f852b7ec266d49895863c79b63a13
+  - enabled: 1
+    path: Assets/Scenes/Finale.unity
+    guid: 19c2ffdc96c43ea40bb9b67f03d8e01f
+  m_configObjects: {}

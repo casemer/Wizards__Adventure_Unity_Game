@@ -1,0 +1,257 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7871323683783505289
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7871323683783505291}
+  - component: {fileID: 7871323683783505288}
+  m_Layer: 0
+  m_Name: SoundManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7871323683783505291
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7871323683783505289}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -9.153614, y: -1.0319154, z: 15.50927}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7871323683783505288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7871323683783505289}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f26086da5240688468486b8d80c0dc44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mixerGroup: {fileID: 24300002, guid: 52d4275b858ee8747aaf8f27a2bac74b, type: 2}
+  sounds:
+  - name: Fire
+    group: {fileID: 24300002, guid: 52d4275b858ee8747aaf8f27a2bac74b, type: 2}
+    clip: {fileID: 8300000, guid: 98462371640f65e49929733d5a027ce9, type: 3}
+    volume: 0.3
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0.138
+    loop: 0
+    mixerGroup: {fileID: 24300002, guid: 52d4275b858ee8747aaf8f27a2bac74b, type: 2}
+    source: {fileID: 0}
+  - name: GhostDeath
+    group: {fileID: 24300002, guid: 52d4275b858ee8747aaf8f27a2bac74b, type: 2}
+    clip: {fileID: 8300000, guid: 6217785cd9e75e046b9cb0328c1c0918, type: 3}
+    volume: 0.3
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0.138
+    loop: 0
+    mixerGroup: {fileID: 24300002, guid: 52d4275b858ee8747aaf8f27a2bac74b, type: 2}
+    source: {fileID: 0}
+  - name: Music
+    group: {fileID: 24300002, guid: 52d4275b858ee8747aaf8f27a2bac74b, type: 2}
+    clip: {fileID: 8300000, guid: b325854b8eeabbc4d96154c078088767, type: 3}
+    volume: 0.4
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 1
+    mixerGroup: {fileID: 24300002, guid: 52d4275b858ee8747aaf8f27a2bac74b, type: 2}
+    source: {fileID: 0}
+  - name: Button
+    group: {fileID: 24300002, guid: 52d4275b858ee8747aaf8f27a2bac74b, type: 2}
+    clip: {fileID: 8300000, guid: 0d195d1ff1bcea648a6a5890e430f18e, type: 3}
+    volume: 0.4
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 24300002, guid: 52d4275b858ee8747aaf8f27a2bac74b, type: 2}
+    source: {fileID: 0}
+  - name: Dialogue
+    group: {fileID: 24300002, guid: 52d4275b858ee8747aaf8f27a2bac74b, type: 2}
+    clip: {fileID: 8300000, guid: b8b13916a67612043a1615130026e0e7, type: 3}
+    volume: 0.1
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 24300002, guid: 52d4275b858ee8747aaf8f27a2bac74b, type: 2}
+    source: {fileID: 0}
+  - name: Pickup
+    group: {fileID: 24300002, guid: 52d4275b858ee8747aaf8f27a2bac74b, type: 2}
+    clip: {fileID: 8300000, guid: 6050baaf90eb21a4f9e3a30a72e7241c, type: 3}
+    volume: 0.3
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 24300002, guid: 52d4275b858ee8747aaf8f27a2bac74b, type: 2}
+    source: {fileID: 0}
+  - name: Door
+    group: {fileID: 24300002, guid: 52d4275b858ee8747aaf8f27a2bac74b, type: 2}
+    clip: {fileID: 8300000, guid: b8c096b27cf546b48b7ca86d4faeb734, type: 3}
+    volume: 0.3
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 24300002, guid: 52d4275b858ee8747aaf8f27a2bac74b, type: 2}
+    source: {fileID: 0}
+  - name: Jump
+    group: {fileID: 24300002, guid: 52d4275b858ee8747aaf8f27a2bac74b, type: 2}
+    clip: {fileID: 8300000, guid: 98286b0d2ddab4240826d54c0647e27a, type: 3}
+    volume: 0.1
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 24300002, guid: 52d4275b858ee8747aaf8f27a2bac74b, type: 2}
+    source: {fileID: 0}
+  - name: AcidDeath
+    group: {fileID: 24300002, guid: 52d4275b858ee8747aaf8f27a2bac74b, type: 2}
+    clip: {fileID: 8300000, guid: 27c3883742b841642badb6d95d0e61b2, type: 3}
+    volume: 0.3
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 24300002, guid: 52d4275b858ee8747aaf8f27a2bac74b, type: 2}
+    source: {fileID: 0}
+  - name: BoneThrow
+    group: {fileID: 24300002, guid: 52d4275b858ee8747aaf8f27a2bac74b, type: 2}
+    clip: {fileID: 8300000, guid: 135a120bdf4a0574fb2d8e9692850bab, type: 3}
+    volume: 0.3
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 24300002, guid: 52d4275b858ee8747aaf8f27a2bac74b, type: 2}
+    source: {fileID: 0}
+  - name: Landing
+    group: {fileID: 24300002, guid: 52d4275b858ee8747aaf8f27a2bac74b, type: 2}
+    clip: {fileID: 8300000, guid: edebee9c941b5d74a8481618b1cebc1c, type: 3}
+    volume: 0.3
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 24300002, guid: 52d4275b858ee8747aaf8f27a2bac74b, type: 2}
+    source: {fileID: 0}
+  - name: WizardDeath
+    group: {fileID: 24300002, guid: 52d4275b858ee8747aaf8f27a2bac74b, type: 2}
+    clip: {fileID: 8300000, guid: a3ddf6576fb7077498b443ed4cb1a756, type: 3}
+    volume: 0.3
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 24300002, guid: 52d4275b858ee8747aaf8f27a2bac74b, type: 2}
+    source: {fileID: 0}
+  - name: HomeMusic
+    group: {fileID: 24300002, guid: 52d4275b858ee8747aaf8f27a2bac74b, type: 2}
+    clip: {fileID: 8300000, guid: 8249cf9c6cda2ed489b44823a2f5d798, type: 3}
+    volume: 0.05
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 1
+    mixerGroup: {fileID: 24300002, guid: 52d4275b858ee8747aaf8f27a2bac74b, type: 2}
+    source: {fileID: 0}
+  - name: TownMusic
+    group: {fileID: 24300002, guid: 52d4275b858ee8747aaf8f27a2bac74b, type: 2}
+    clip: {fileID: 8300000, guid: 0235136e3e74b4647a83b7227a479057, type: 3}
+    volume: 0.1
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 1
+    mixerGroup: {fileID: 24300002, guid: 52d4275b858ee8747aaf8f27a2bac74b, type: 2}
+    source: {fileID: 0}
+  - name: DungeonMusic
+    group: {fileID: 24300002, guid: 52d4275b858ee8747aaf8f27a2bac74b, type: 2}
+    clip: {fileID: 8300000, guid: 68923fee97bbb084d9ba1060b9717119, type: 3}
+    volume: 0.1
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 1
+    mixerGroup: {fileID: 24300002, guid: 52d4275b858ee8747aaf8f27a2bac74b, type: 2}
+    source: {fileID: 0}
+  - name: ForestMusic
+    group: {fileID: 24300002, guid: 52d4275b858ee8747aaf8f27a2bac74b, type: 2}
+    clip: {fileID: 8300000, guid: 206523f0861d6d04ab48a65f84f3060c, type: 3}
+    volume: 0.1
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 1
+    mixerGroup: {fileID: 24300002, guid: 52d4275b858ee8747aaf8f27a2bac74b, type: 2}
+    source: {fileID: 0}
+  - name: HeavenMusic
+    group: {fileID: 24300002, guid: 52d4275b858ee8747aaf8f27a2bac74b, type: 2}
+    clip: {fileID: 8300000, guid: daf1a91c566de484192dbbc2697bfee6, type: 3}
+    volume: 0.1
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 1
+    mixerGroup: {fileID: 24300002, guid: 52d4275b858ee8747aaf8f27a2bac74b, type: 2}
+    source: {fileID: 0}
+  - name: GodFightMusic
+    group: {fileID: 24300002, guid: 52d4275b858ee8747aaf8f27a2bac74b, type: 2}
+    clip: {fileID: 8300000, guid: 63c30c5cff8e55b43b60ff4405cd9153, type: 3}
+    volume: 0.1
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 1
+    mixerGroup: {fileID: 24300002, guid: 52d4275b858ee8747aaf8f27a2bac74b, type: 2}
+    source: {fileID: 0}
+  - name: MountainMusic
+    group: {fileID: 24300002, guid: 52d4275b858ee8747aaf8f27a2bac74b, type: 2}
+    clip: {fileID: 8300000, guid: 0cf01186be901cf48be277799464b45d, type: 3}
+    volume: 0.1
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 1
+    mixerGroup: {fileID: 24300002, guid: 52d4275b858ee8747aaf8f27a2bac74b, type: 2}
+    source: {fileID: 0}
+  - name: SkeletonBossMusic
+    group: {fileID: 24300002, guid: 52d4275b858ee8747aaf8f27a2bac74b, type: 2}
+    clip: {fileID: 8300000, guid: a1547dbf05c90e94ca9a6da4305c492a, type: 3}
+    volume: 0.1
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 1
+    mixerGroup: {fileID: 24300002, guid: 52d4275b858ee8747aaf8f27a2bac74b, type: 2}
+    source: {fileID: 0}
+  - name: WitchBossMusic
+    group: {fileID: 24300002, guid: 52d4275b858ee8747aaf8f27a2bac74b, type: 2}
+    clip: {fileID: 8300000, guid: 080d486a74b325d49a6a6dc6ab27db49, type: 3}
+    volume: 0.1
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 1
+    mixerGroup: {fileID: 24300002, guid: 52d4275b858ee8747aaf8f27a2bac74b, type: 2}
+    source: {fileID: 0}

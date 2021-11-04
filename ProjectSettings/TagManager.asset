@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Bullet
+  - gm
+  - Enemy
+  - Ground
+  - Wall
+  - Bone
+  - Frog
+  - Bush
+  - ClimbWall
+  - Rock
+  - RockHit
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Player
+  - Enemy
+  - Ground
+  - Wall
+  - Background
+  - Bullet
+  - Mage Bullet
+  - Frog
+  - Post Processing
+  - Rock
+  - RockHit
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 3872580197
+    locked: 0
+  - name: Walls/Ground
+    uniqueID: 846079911
+    locked: 0
+  - name: Player
+    uniqueID: 1577564783
+    locked: 0
+  - name: MageFire
+    uniqueID: 3874336633
+    locked: 0
